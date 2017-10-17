@@ -50,8 +50,8 @@ $config = [
         'db' => require(__DIR__ . '/db.php'),
         'recaptcha' => [
             'class' => 'richweber\recaptcha\ReCaptcha',
-            'siteKey' => '6LfpdhMUAAAAAE61hqIA4PHUbScnIzIFy4u7T-XX',
-            'secretKey' => '6LfpdhMUAAAAAPMJOlJIeTMQ9EXtZ8oyza11khhH',
+            'siteKey' => '<GET_YOUR_KEY>', // https://www.google.com/recaptcha/admin
+            'secretKey' => '<GET_YOUR_KEY>', // https://www.google.com/recaptcha/admin
             'errorMessage' => 'Are you robot?',
         ],
     ],
